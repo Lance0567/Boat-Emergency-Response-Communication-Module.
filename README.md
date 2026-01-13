@@ -107,3 +107,12 @@ To compile this project, install the following libraries in your **Arduino IDE**
 [GSM] Sending SMS to +63991xxxx... Sent!
 
 [WAIT] Retrying in 60 seconds...
+```
+
+## 🚀 How to Run
+
+1. **Hardware Setup:** Assemble the circuit following the pin configuration table above.
+2. **Antennas:** Ensure external antennas for GPS, GSM, and LoRa are connected before powering on to prevent module damage.
+3. **Power:** Use a stable 2A power source (SIM800L requires high current bursts).
+4. **Upload:** Open the .ino file in Arduino IDE, select your board and port, and click Upload.
+5. **Monitor:** Open Serial Monitor (Baud 9600) to view system logs.
